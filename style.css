@@ -1,0 +1,124 @@
+a:link{
+    color: blue;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: blue;
+}
+.top{
+    background-color: aquamarine;
+    border: 1px solid black;
+    font-size: 300%;
+    text-align: center;
+}
+body{
+    background-color: blanchedalmond;
+}
+img{
+    width: 60%;
+    height: 70%;
+    padding-left: 20%;
+}
+p{
+    background-color: lightblue;
+    font-size: large;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px lightcoral;
+    color: lightgoldenrodyellow;
+}
+h1, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+nav{
+    background-color: brown;
+    padding: 2ex;
+}
+.list{
+    text-shadow: 2px 2px goldenrod;
+    text-align: center;
+}
+.global_navigation{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    font-size: x-large;
+}
+.item1{
+    grid-column: 4;
+    font-size: 300%;
+    border: 1px solid black;
+    background-color: gray;
+}
+.item2{
+    grid-column: 2;
+    font-size: 300%;
+    border: 1px solid black;
+    background-color: darkgray;
+}
+.item3{
+    grid-column: 3;
+    font-size: 300%;
+    border: 1px solid black;
+    background-color: gray;
+}
+.item4{
+    grid-column: 1;
+    font-size: 300%;
+    border: 1px solid black;
+    background-color: darkgray;
+}
+.feet{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    background-color: peru;
+    text-align: center;
+    margin: 5%;
+    font-size: x-large;
+    color: yellow;
+}
+.toe1{
+    grid-column: 1;
+    background-color: rebeccapurple;
+}
+.toe2{
+    grid-column: 8;
+    background-color: rebeccapurple;
+}
+.quentin{
+    width: 15%;
+    height: 25%;
+    margin-left: 22%;
+}
+.regular_txt{
+    color: black;
+    text-align: left;
+    text-shadow: 0px 0px black;
+    background-color: cornflowerblue;
+    margin-right: 60%;
+}
+.leonardo{
+    width: 40%;
+    height: 50%;
+    margin-left: 10%;
+}
+tr:nth-child(even){
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+tr:nth-child(odd){
+    background-color: white;
+    color: black;
+    text-align: left;
+}
